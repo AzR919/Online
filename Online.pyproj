@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>79ddafea-2b6c-42e4-af11-1f9d70d75940</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Online.py</StartupFile>
+    <StartupFile>network.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="network.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="server.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Online.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
